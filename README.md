@@ -1,15 +1,15 @@
-#nl-design
+# nl-design
 ***
 #####A simple component library
 
-#Feature
+# Feature
 *  Simple API  
 *  Custom table style  
-#Install
+# Install
 ````
  npm install nl-design
 ````
-#Usage
+# Usage
 
 
 ````
