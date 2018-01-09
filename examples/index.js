@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import  ReactDOM from 'react-dom';
-import Table from '../components/table/table';
-import Pagination from '../components/pagination/pagination'
+import {Table, Pagination} from 'nl-design';
+// import Table from '../components/table/table';
+// import Pagination from '../components/pagination/pagination'
 
 class App extends Component{
     constructor(){

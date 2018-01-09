@@ -4,7 +4,6 @@
   "description": "A component library based on react",
   "main": "./dist/index.js",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node_modules/.bin/babel components --out-dir dist && cp -rf ./components/table/style ./dist/table/ && cp -rf ./components/pagination/style ./dist/pagination/",
     "prepublish": "npm run build"
