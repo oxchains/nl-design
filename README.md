@@ -1,6 +1,6 @@
 # nl-design
-***
-#####A simple component library
+
+##### A simple component library
 
 # Feature
 *  Simple API  
