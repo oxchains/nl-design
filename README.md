@@ -15,7 +15,7 @@
 ````
  import React, {Component} from 'react';
  import  ReactDOM from 'react-dom';
- import {Table} from 'nl-design';
+ import {Table, Pagination} from 'nl-design';
  
  class App extends Component{
      constructor(){
@@ -81,6 +81,7 @@
          return(
              <div style={{width:'960px',margin:'auto'}}>
                  <Table columns={columns} dataSource={data} tableStyle={style.tableStyle} tableClass={style.tableProps} />
+                 <Pagination defaultPageSize={8} total = {100} />
              </div>
          );
      }
